@@ -2,7 +2,7 @@ import React from "react";
 
 function page() {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
+    <div className="max-w-6xl mx-auto space-y-4 p-5">
       <h1 className="text-2xl font-medium text-amber-600">About</h1>
       <p>
         Welcome to IMDB-clone, your ultimate online movie database. Immerse
