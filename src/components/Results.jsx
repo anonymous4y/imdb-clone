@@ -1,4 +1,4 @@
-export default function Results({ results }) {
+const Results = ({ results }) => {
   return (
     <div>
       {results.map((result) => {
@@ -6,4 +6,6 @@ export default function Results({ results }) {
       })}
     </div>
   );
-}
+};
+
+export default Results;
