@@ -1,6 +1,7 @@
+import React from "react";
 import Link from "next/link";
 
-export default function MenuItem({ title, address, Icon }) {
+const MenuItem = ({ title, address, Icon }) => {
   return (
     <div>
       <Link href={address} className="mx-4 lg:mx-6 hover:text-amber-600">
@@ -9,4 +10,8 @@ export default function MenuItem({ title, address, Icon }) {
       </Link>
     </div>
   );
-}
+};
+
+MenuItem.displayName = "MenuItem"; // Provide a display name
+
+export default MenuItem;
